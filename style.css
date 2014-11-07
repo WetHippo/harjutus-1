@@ -1,0 +1,147 @@
+#container
+{
+	position: absolute;
+	background:url('gfx/body-bg.jpg');
+}
+header
+{
+	margin-bottom: 40px;
+}
+.search, #language, nav, .date
+{
+	float:right;
+}
+#language li, nav li
+{
+	display: inline-block;
+}
+header h2, nav li, aside p
+{
+	font: 17pt Myriad Pro;
+}
+#language, footer p
+{
+	font: 10pt Myriad Pro;
+}
+header h1, .thumb h2, aside h1
+{
+	font: 35pt Myriad Pro;
+}
+.thumb h2, .date, aside h1, footer a
+{
+	color: #fff;
+}
+header h2, #language a, nav a
+{
+	color: #787878;
+}
+#language a:hover, nav a:hover
+{
+	color:#303132;
+}
+aside p, #contact, footer p
+{
+	color: #c2c2c2;
+}
+#language a, nav a, footer a
+{
+	text-decoration: none;
+}
+.date, footer p
+{
+	opacity: 0.3;
+}
+header h1
+{
+	margin: 50px 0 0 10px;
+	font-weight: bold;
+	color:#ff0000;
+}
+header h2
+{
+	margin-left: 15px;
+}
+.search
+{
+	margin: -70px 160px;
+}
+#language
+{
+	margin: -70px 20px;
+	font-variant: small-caps;
+}
+#language li
+{
+	margin-right: 15px;
+}
+#language li:last-child
+{
+	margin-right: 0;
+}
+nav
+{
+	margin: -30px 20px;
+}
+nav li
+{
+	margin-left: 10px;
+}
+article 
+{
+	float: left;
+	margin: 80px 0 0 47px;
+}
+article:first-child
+{
+	margin-left: 20px;
+}
+.thumb
+{
+	position: relative;
+}
+.thumb img
+{
+	display: block;
+}
+.thumb h2
+{
+	position: absolute;
+	padding:35px 0 0 35px;
+}
+.date
+{
+	padding-top: 20px;
+	font:12pt Myriad Pro;
+}
+aside
+{
+	clear: both;
+	text-align: center;
+}
+aside h1
+{
+	padding-top: 100px;
+}
+aside p
+{
+	margin-top: 20px;
+}
+footer
+{
+	margin-top: 120px;
+}
+footer p
+{
+	float: left;
+	margin-left: 940px;
+	margin-bottom: 80px;
+	text-align: left;
+}
+footer p:first-child
+{
+	margin-left: 20px;
+}
+footer a
+{
+	color: #fff;
+}

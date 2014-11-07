@@ -1,0 +1,165 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+#container
+{
+	background:url('../gfx/body-bg.jpg');
+	position: absolute;
+}
+header
+{
+	margin-bottom: 40px;
+}
+.search, #language, nav
+{
+	float:right;
+}
+#language li, nav li, #navbar li, #navbar2 li
+{
+	display: inline-block;
+}
+header h2, nav li, #navbar li
+{
+	font: 18pt Myriad Pro;
+}
+#language li, #contact, footer p
+{
+	font: 11pt Myriad Pro;
+}
+#post p, #post ul, li
+{
+	font: 14pt Open Sans;
+}
+header h2, #language a, nav a, #navbar a, #navbar2 a
+{
+	color:#787878;
+}
+#navbar2 li, #post p, #post ul, li, footer p
+{
+	color: #c2c2c2;	
+}
+#language a:hover, nav a:hover
+{
+	color:#303132;
+}
+#navbar a:hover, #navbar2 a:hover, #post h2, footer a
+{
+	color:#fff;
+}
+#navbar2, #container h1
+{
+	text-align: center;
+}
+header h1
+{
+	margin: 40px 0 0 15px;
+	font: 34pt Myriad Pro;
+	font-weight: bold;
+	color:#ff0000;
+}
+header h2
+{
+	margin-left: 15px;
+}
+.search
+{
+	margin: -70px 160px;
+}
+#language
+{
+	margin: -70px 20px;
+}
+#language li
+{
+	margin-right: 15px;
+	font-variant: small-caps;
+}
+#language li:last-child
+{
+	margin-right: 0;
+}
+#language a
+{
+	text-decoration: none;
+}
+nav
+{
+	margin: -30px 20px;
+}
+nav li
+{
+	margin-left: 10px;
+}
+nav a
+{
+	text-decoration: none;
+}
+#navbar
+{
+	margin: 20px 0 0 5px;
+}
+#navbar li
+{
+	padding-top: 40px;
+	margin-left: 10px;
+}
+#navbar a
+{
+	text-decoration: none;
+}
+#navbar2
+{
+	margin: 30px 20px 0 20px;
+	padding: 10px 0 10px;
+	background:rgba(0,0,0,0.2);
+}
+#navbar2 li
+{
+	margin-left: 20px;
+	font: 12pt Open Sans;
+}
+#navbar2 a
+{
+	text-decoration: none;
+}
+#container h1
+{
+	padding-top: 50px;
+	font: 30pt Myriad Pro;
+	color: #fff;
+}
+#post
+{
+	padding: 20px 180px 20px 180px;
+}
+#post h2
+{
+	font: 16pt Open Sans;
+}
+#post ul
+{
+	padding: 20px 0 20px 20px;
+}
+footer
+{
+	margin-top: 120px;
+}
+footer p
+{
+	float: left;
+	margin-left: 940px;
+	margin-bottom: 80px;
+	text-align: left;
+	opacity: 0.3;
+}
+footer p:first-child
+{
+	margin-left: 20px;
+}
+footer a
+{
+	color: #fff;
+	text-decoration: none;
+}
